@@ -2,7 +2,6 @@
 small tool to generate fdroid repo with apps from rustore
 
 ## Usage
-copy `config.yml.example` and change it as u wish
 ```shell
-$ python3 main.py <config.yml>
+$ python3 main.py -r REPO {init,add,remove,list,sign}
 ```
